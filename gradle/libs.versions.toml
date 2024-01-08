@@ -1,0 +1,9 @@
+[versions]
+
+lombok = "1.18.30"
+gson = "2.10.1"
+
+[libraries]
+
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }

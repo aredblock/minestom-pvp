@@ -1,0 +1,5 @@
+{
+  "entrypoint": "net.bytemc.pvp.Pvp",
+  "name": "pvp",
+  "version": "1.0.0"
+}

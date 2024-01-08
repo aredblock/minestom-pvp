@@ -1,0 +1,159 @@
+{
+  "tools": [
+    {
+      "itemNamespaceId": "wooden_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "stone_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "iron_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "diamond_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "golden_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "netherite_sword",
+      "attackSpeedValue": 3,
+      "attackDamageValue": -2.4
+    },
+    {
+      "itemNamespaceId": "wooden_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "stone_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "iron_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "diamond_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "golden_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "netherite_shovel",
+      "attackSpeedValue": 1.5,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "wooden_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "stone_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "iron_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "diamond_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "golden_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "netherite_pickaxe",
+      "attackSpeedValue": 1,
+      "attackDamageValue": -2.8
+    },
+    {
+      "itemNamespaceId": "wooden_axe",
+      "attackSpeedValue": 6.0,
+      "attackDamageValue": -3.2
+    },
+    {
+      "itemNamespaceId": "stone_axe",
+      "attackSpeedValue": 7.0,
+      "attackDamageValue": -3.2
+    },
+    {
+      "itemNamespaceId": "iron_axe",
+      "attackSpeedValue": 6.0,
+      "attackDamageValue": -3.1
+    },
+    {
+      "itemNamespaceId": "diamond_axe",
+      "attackSpeedValue": 5.0,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "golden_axe",
+      "attackSpeedValue": 6.0,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "netherite_axe",
+      "attackSpeedValue": 5.0,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "wooden_hoe",
+      "attackSpeedValue": 0,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "stone_hoe",
+      "attackSpeedValue": -1,
+      "attackDamageValue": -2.0
+    },
+    {
+      "itemNamespaceId": "iron_hoe",
+      "attackSpeedValue": -2,
+      "attackDamageValue": -1.0
+    },
+    {
+      "itemNamespaceId": "diamond_hoe",
+      "attackSpeedValue": -3,
+      "attackDamageValue": 0.0
+    },
+    {
+      "itemNamespaceId": "golden_hoe",
+      "attackSpeedValue": 0,
+      "attackDamageValue": -3.0
+    },
+    {
+      "itemNamespaceId": "netherite_hoe",
+      "attackSpeedValue": -4,
+      "attackDamageValue": 0.0
+    },
+    {
+      "itemNamespaceId": "trident",
+      "attackSpeedValue": 8.0,
+      "attackDamageValue": -2.9
+    }
+  ]
+}

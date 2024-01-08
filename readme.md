@@ -1,0 +1,4 @@
+- [ ] default hit + animation
+- [ ] critical
+- [ ] velocity
+- [ ] damage types
