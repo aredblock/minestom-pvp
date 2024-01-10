@@ -1,187 +1,187 @@
 {
   "tools": [
     {
-      "itemNamespaceId": "wooden_sword",
+      "item": "wooden_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 3.0,
       "legacyAttackDamageValue": 4.0
     },
     {
-      "itemNamespaceId": "stone_sword",
+      "item": "stone_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 4.0,
       "legacyAttackDamageValue": 5.0
     },
     {
-      "itemNamespaceId": "iron_sword",
+      "item": "iron_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 5.0,
       "legacyAttackDamageValue": 6.0
     },
     {
-      "itemNamespaceId": "diamond_sword",
+      "item": "diamond_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 6.0,
       "legacyAttackDamageValue": 7.0
     },
     {
-      "itemNamespaceId": "golden_sword",
+      "item": "golden_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 3.0,
       "legacyAttackDamageValue": 4.0
     },
     {
-      "itemNamespaceId": "netherite_sword",
+      "item": "netherite_sword",
       "attackSpeedValue": -2.4,
       "attackDamageValue": 7.0,
       "legacyAttackDamageValue": 8.0
     },
     {
-      "itemNamespaceId": "wooden_shovel",
+      "item": "wooden_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 1.5,
       "legacyAttackDamageValue": 1.0
     },
     {
-      "itemNamespaceId": "stone_shovel",
+      "item": "stone_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 2.5,
       "legacyAttackDamageValue": 2.0
     },
     {
-      "itemNamespaceId": "iron_shovel",
+      "item": "iron_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 3.5,
       "legacyAttackDamageValue": 3.0
     },
     {
-      "itemNamespaceId": "diamond_shovel",
+      "item": "diamond_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 4.5,
       "legacyAttackDamageValue": 4.0
     },
     {
-      "itemNamespaceId": "golden_shovel",
+      "item": "golden_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 1.5,
       "legacyAttackDamageValue": 1.0
     },
     {
-      "itemNamespaceId": "netherite_shovel",
+      "item": "netherite_shovel",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 5.5,
       "legacyAttackDamageValue": 5.0
     },
     {
-      "itemNamespaceId": "wooden_pickaxe",
+      "item": "wooden_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 1.0,
       "legacyAttackDamageValue": 2.0
     },
     {
-      "itemNamespaceId": "stone_pickaxe",
+      "item": "stone_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 2.0,
       "legacyAttackDamageValue": 3.0
     },
     {
-      "itemNamespaceId": "iron_pickaxe",
+      "item": "iron_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 3.0,
       "legacyAttackDamageValue": 4.0
     },
     {
-      "itemNamespaceId": "diamond_pickaxe",
+      "item": "diamond_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 4.0,
       "legacyAttackDamageValue": 5.0
     },
     {
-      "itemNamespaceId": "golden_pickaxe",
+      "item": "golden_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 1.0,
       "legacyAttackDamageValue": 2.0
     },
     {
-      "itemNamespaceId": "netherite_pickaxe",
+      "item": "netherite_pickaxe",
       "attackSpeedValue": -2.8,
       "attackDamageValue": 5.0,
       "legacyAttackDamageValue": 6.0
     },
     {
-      "itemNamespaceId": "wooden_axe",
+      "item": "wooden_axe",
       "attackSpeedValue": -3.2,
       "attackDamageValue": 6.0,
       "legacyAttackDamageValue": 3.0
     },
     {
-      "itemNamespaceId": "stone_axe",
+      "item": "stone_axe",
       "attackSpeedValue": -3.2,
       "attackDamageValue": 8.0,
       "legacyAttackDamageValue": 4.0
     },
     {
-      "itemNamespaceId": "iron_axe",
+      "item": "iron_axe",
       "attackSpeedValue": -3.1,
       "attackDamageValue": 8.0,
       "legacyAttackDamageValue": 5.0
     },
     {
-      "itemNamespaceId": "diamond_axe",
+      "item": "diamond_axe",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 8.0,
       "legacyAttackDamageValue": 6.0
     },
     {
-      "itemNamespaceId": "golden_axe",
+      "item": "golden_axe",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 6.0,
       "legacyAttackDamageValue": 3.0
     },
     {
-      "itemNamespaceId": "netherite_axe",
+      "item": "netherite_axe",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 9.0,
       "legacyAttackDamageValue": 7.0
     },
     {
-      "itemNamespaceId": "wooden_hoe",
+      "item": "wooden_hoe",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "stone_hoe",
+      "item": "stone_hoe",
       "attackSpeedValue": -2.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "iron_hoe",
+      "item": "iron_hoe",
       "attackSpeedValue": -1.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "diamond_hoe",
+      "item": "diamond_hoe",
       "attackSpeedValue": 0.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "golden_hoe",
+      "item": "golden_hoe",
       "attackSpeedValue": -3.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "netherite_hoe",
+      "item": "netherite_hoe",
       "attackSpeedValue": 0.0,
       "attackDamageValue": 0.0,
       "legacyAttackDamageValue": 0.0
     },
     {
-      "itemNamespaceId": "trident",
+      "item": "trident",
       "attackSpeedValue": -2.9,
       "attackDamageValue": 8.0,
       "legacyAttackDamageValue": 5.0
