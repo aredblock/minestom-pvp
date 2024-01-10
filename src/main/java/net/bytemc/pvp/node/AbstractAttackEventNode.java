@@ -34,27 +34,27 @@ public abstract class AbstractAttackEventNode {
             attacker.setTag(LAST_ATTACK, System.currentTimeMillis());
 
             // reduce knockback
-            attacker.setVelocity(attacker.getVelocity().mul(0.6, 1, 0.6));
+           // attacker.setVelocity(attacker.getVelocity().mul(0.6, 1, 0.6));
 
             if (it.getTarget() instanceof LivingEntity victim) {
                 float damage = applyDamage(attacker);
 
                 if(isCritical(attacker)) {
-                    damage += applyCritical(damage);
+                    damage = applyCritical(damage);
                 }
 
                 victim.damage(new DamageType("player"), damage);
+                victim.setVelocity(applyKnockback(attacker, victim));
 
                 // call red hit animation
                 victim.sendPacketToViewersAndSelf(new HitAnimationPacket(victim.getEntityId(), attacker.getPosition().yaw() + 180));
-                victim.setVelocity(applyKnockback(attacker, victim));
                 victim.sendPacketToViewersAndSelf(new EntityVelocityPacket(victim.getEntityId(), victim.getVelocity().mul(8000.0F / (float) MinecraftServer.TICK_PER_SECOND)));
             }
         });
     }
 
     public boolean isCritical(LivingEntity attacker) {
-        return !isClimbing(attacker) && attacker.getVelocity().y() < 0 && !attacker.isOnGround() && attacker.getVehicle() != null;
+        return attacker.getVelocity().y() < 0 && !attacker.isOnGround() && attacker.getVehicle() == null;
     }
 
     private boolean isClimbing(LivingEntity attacker){

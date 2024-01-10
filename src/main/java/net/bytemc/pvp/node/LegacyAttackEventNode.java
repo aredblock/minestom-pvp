@@ -38,9 +38,7 @@ public final class LegacyAttackEventNode extends AbstractAttackEventNode {
     @Override
     public float applyDamage(LivingEntity attacker) {
         var damage = attacker.getAttributeValue(Attribute.ATTACK_DAMAGE);
-
         // todo enchantments
-        System.out.println("damage: " + damage);
         return damage;
     }
 }
