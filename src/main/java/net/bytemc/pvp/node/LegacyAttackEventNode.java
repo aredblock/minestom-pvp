@@ -7,6 +7,8 @@ import net.minestom.server.coordinate.Vec;
 import net.minestom.server.entity.LivingEntity;
 import net.minestom.server.event.player.PlayerSpawnEvent;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 // represent 1.8 pvp mechanics
 public final class LegacyAttackEventNode extends AbstractAttackEventNode {
 
@@ -18,8 +20,13 @@ public final class LegacyAttackEventNode extends AbstractAttackEventNode {
     }
 
     @Override
+    public float applyCritical(float damage) {
+        return damage + ThreadLocalRandom.current().nextInt((int) (damage / 2 + 2));
+    }
+
+    @Override
     public Vec applyKnockback(LivingEntity attacker, LivingEntity victim) {
-        var knockback = 1;
+        var knockback = 1.2;
         var kbResistance = victim.getAttributeValue(Attribute.KNOCKBACK_RESISTANCE);
         var horizontal = (MinecraftServer.TICK_PER_SECOND * 0.4) * (1 - kbResistance) * knockback;
         var vertical = (MinecraftServer.TICK_PER_SECOND * 0.4) * (1 - kbResistance) * knockback;
