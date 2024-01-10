@@ -10,17 +10,19 @@ public class MinestomToolsSerializer implements JsonSerializer<MinestomTools>, J
     @Override
     public MinestomTools deserialize(JsonElement jsonElement, Type type, JsonDeserializationContext jsonDeserializationContext) throws JsonParseException {
         var element = jsonElement.getAsJsonObject();
-        var material = Material.fromNamespaceId(element.get("itemNamespaceId").getAsString());
-        var attackDamageValue = element.get("attackDamageValue").getAsDouble();
+        var material = Material.fromNamespaceId(element.get("item").getAsString());
+        var attackDamageValue = element.get("attackDamageValue").getAsFloat();
+        var legacyAttackDamageValue = element.get("legacyAttackDamageValue").getAsFloat();
         var attackSpeedValue = element.get("attackSpeedValue").getAsFloat();
-        return new MinestomTools(material, attackDamageValue, attackSpeedValue);
+        return new MinestomTools(material, attackDamageValue, attackSpeedValue, legacyAttackDamageValue);
     }
 
     @Override
     public JsonElement serialize(MinestomTools minestomTools, Type type, JsonSerializationContext jsonSerializationContext) {
         var object = new JsonObject();
-        object.addProperty("itemNamespaceId", minestomTools.getItemNamespaceId().name());
+        object.addProperty("item", minestomTools.getItem().name());
         object.addProperty("attackDamageValue", minestomTools.getAttackDamageValue());
+        object.addProperty("legacyAttackDamageValue", minestomTools.getLegacyAttackDamageValue());
         object.addProperty("attackSpeedValue", minestomTools.getAttackSpeedValue());
         return object;
     }

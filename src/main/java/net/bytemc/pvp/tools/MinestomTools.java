@@ -8,8 +8,9 @@ import net.minestom.server.item.Material;
 @AllArgsConstructor
 public class MinestomTools {
 
-    private final Material itemNamespaceId;
-    private final double attackDamageValue;
+    private final Material item;
+    private final float attackDamageValue;
     private final float attackSpeedValue;
+    private final float legacyAttackDamageValue;
 
 }

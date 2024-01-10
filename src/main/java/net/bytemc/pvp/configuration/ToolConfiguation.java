@@ -1,4 +1,4 @@
-package net.bytemc.pvp;
+package net.bytemc.pvp.configuration;
 
 import lombok.Getter;
 import net.bytemc.pvp.tools.MinestomTools;
@@ -6,6 +6,6 @@ import net.bytemc.pvp.tools.MinestomTools;
 @Getter
 public class ToolConfiguation {
 
-    private MinestomTools[] tools = new MinestomTools[]{};
+    private final MinestomTools[] tools = new MinestomTools[]{};
 
 }
