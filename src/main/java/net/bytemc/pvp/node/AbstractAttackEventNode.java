@@ -37,7 +37,13 @@ public abstract class AbstractAttackEventNode {
             attacker.setVelocity(attacker.getVelocity().mul(0.6, 1, 0.6));
 
             if (it.getTarget() instanceof LivingEntity victim) {
-                victim.damage(new DamageType("player"), applyDamage(attacker));
+                float damage = applyDamage(attacker);
+
+                if(isCritical(attacker)) {
+                    damage += applyCritical(damage);
+                }
+
+                victim.damage(new DamageType("player"), damage);
 
                 // call red hit animation
                 victim.sendPacketToViewersAndSelf(new HitAnimationPacket(victim.getEntityId(), attacker.getPosition().yaw() + 180));
@@ -46,6 +52,17 @@ public abstract class AbstractAttackEventNode {
             }
         });
     }
+
+    public boolean isCritical(LivingEntity attacker) {
+        return !isClimbing(attacker) && attacker.getVelocity().y() < 0 && !attacker.isOnGround() && attacker.getVehicle() != null;
+    }
+
+    private boolean isClimbing(LivingEntity attacker){
+        // todo
+        return false;
+    }
+
+    public abstract float applyCritical(float damage);
 
     public abstract Vec applyKnockback(LivingEntity attacker, LivingEntity victim);
 
