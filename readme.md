@@ -7,7 +7,6 @@ MinestomPvp is outdated and not working with latest Minestom version.
 
 ### Startring
 #### Repository
-
 Maven
 ```xml
 <repository>
@@ -27,14 +26,14 @@ maven {
 Maven
 ```xml
 <dependency>
-    <groupId>net.bytemc.pvp</groupId>
+    <groupId>net.bytemc</groupId>
     <artifactId>pvp</artifactId>
     <version>VERSION</version>
 </dependency>
 ```
 Gradle (Kotlin DSL)
 ```kotlin
-implementation("net.bytemc.pvp:pvp:VERSION")
+implementation("net.bytemc:pvp:VERSION")
 ```
 ***
 ```java

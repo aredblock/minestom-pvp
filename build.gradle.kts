@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "net.bytemc.pvp"
+group = "net.bytemc"
 version = "1.0.0-SNAPSHOT"
 
 
